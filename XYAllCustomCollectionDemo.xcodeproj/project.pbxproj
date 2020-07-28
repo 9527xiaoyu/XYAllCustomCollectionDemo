@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B8115ED09A6B2A858A91BD3 /* libPods-XYAllCustomCollectionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CF7FA2334620CD416B19BB /* libPods-XYAllCustomCollectionDemo.a */; };
 		B0129A9224BEF72300A84D6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129A9124BEF72300A84D6C /* AppDelegate.m */; };
 		B0129A9524BEF72300A84D6C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129A9424BEF72300A84D6C /* SceneDelegate.m */; };
 		B0129A9824BEF72300A84D6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129A9724BEF72300A84D6C /* ViewController.m */; };
@@ -16,6 +17,18 @@
 		B0129AA324BEF72700A84D6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129AA224BEF72700A84D6C /* main.m */; };
 		B0129AAD24BEF72700A84D6C /* XYAllCustomCollectionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129AAC24BEF72700A84D6C /* XYAllCustomCollectionDemoTests.m */; };
 		B0129AB824BEF72700A84D6C /* XYAllCustomCollectionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129AB724BEF72700A84D6C /* XYAllCustomCollectionDemoUITests.m */; };
+		B0129ACB24BEFBBD00A84D6C /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129AC924BEFBBD00A84D6C /* MainTableViewCell.m */; };
+		B0129ACC24BEFBBD00A84D6C /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0129ACA24BEFBBD00A84D6C /* MainTableViewCell.xib */; };
+		B0129AD224BF021100A84D6C /* CurrencyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129AD024BF021100A84D6C /* CurrencyCell.m */; };
+		B0129AD324BF021100A84D6C /* CurrencyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0129AD124BF021100A84D6C /* CurrencyCell.xib */; };
+		B0129ADC24BF048800A84D6C /* NormalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129ADA24BF048800A84D6C /* NormalCollectionViewController.m */; };
+		B05A30F224BFF2FD00095FA0 /* CardCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B05A30F124BFF2FD00095FA0 /* CardCollectionViewController.m */; };
+		B05A30F524BFF32000095FA0 /* CardFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B05A30F424BFF32000095FA0 /* CardFlowLayout.m */; };
+		B090FE7824C9312B00F8177C /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B090FE7724C9312B00F8177C /* WaterFlowLayout.m */; };
+		B090FE7B24C9663400F8177C /* WaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B090FE7A24C9663400F8177C /* WaterViewController.m */; };
+		B090FE8024C966A800F8177C /* PhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B090FE7D24C966A800F8177C /* PhotoModel.m */; };
+		B090FE8124C966A800F8177C /* NormalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B090FE7F24C966A800F8177C /* NormalCollectionViewCell.m */; };
+		B090FE8324C966D400F8177C /* podFile in Resources */ = {isa = PBXBuildFile; fileRef = B090FE8224C966D400F8177C /* podFile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15CF7FA2334620CD416B19BB /* libPods-XYAllCustomCollectionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYAllCustomCollectionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0129A8D24BEF72300A84D6C /* XYAllCustomCollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYAllCustomCollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0129A9024BEF72300A84D6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0129A9124BEF72300A84D6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +68,30 @@
 		B0129AB324BEF72700A84D6C /* XYAllCustomCollectionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYAllCustomCollectionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0129AB724BEF72700A84D6C /* XYAllCustomCollectionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYAllCustomCollectionDemoUITests.m; sourceTree = "<group>"; };
 		B0129AB924BEF72700A84D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0129AC824BEFBBD00A84D6C /* MainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		B0129AC924BEFBBD00A84D6C /* MainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		B0129ACA24BEFBBD00A84D6C /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		B0129ACF24BF021100A84D6C /* CurrencyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrencyCell.h; sourceTree = "<group>"; };
+		B0129AD024BF021100A84D6C /* CurrencyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyCell.m; sourceTree = "<group>"; };
+		B0129AD124BF021100A84D6C /* CurrencyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyCell.xib; sourceTree = "<group>"; };
+		B0129AD924BF048800A84D6C /* NormalCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalCollectionViewController.h; sourceTree = "<group>"; };
+		B0129ADA24BF048800A84D6C /* NormalCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalCollectionViewController.m; sourceTree = "<group>"; };
+		B0129ADE24BF0A7200A84D6C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B05A30F024BFF2FD00095FA0 /* CardCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardCollectionViewController.h; sourceTree = "<group>"; };
+		B05A30F124BFF2FD00095FA0 /* CardCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardCollectionViewController.m; sourceTree = "<group>"; };
+		B05A30F324BFF32000095FA0 /* CardFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardFlowLayout.h; sourceTree = "<group>"; };
+		B05A30F424BFF32000095FA0 /* CardFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardFlowLayout.m; sourceTree = "<group>"; };
+		B090FE7624C9312B00F8177C /* WaterFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayout.h; sourceTree = "<group>"; };
+		B090FE7724C9312B00F8177C /* WaterFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayout.m; sourceTree = "<group>"; };
+		B090FE7924C9663400F8177C /* WaterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterViewController.h; sourceTree = "<group>"; };
+		B090FE7A24C9663400F8177C /* WaterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterViewController.m; sourceTree = "<group>"; };
+		B090FE7C24C966A800F8177C /* PhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoModel.h; sourceTree = "<group>"; };
+		B090FE7D24C966A800F8177C /* PhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoModel.m; sourceTree = "<group>"; };
+		B090FE7E24C966A800F8177C /* NormalCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalCollectionViewCell.h; sourceTree = "<group>"; };
+		B090FE7F24C966A800F8177C /* NormalCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalCollectionViewCell.m; sourceTree = "<group>"; };
+		B090FE8224C966D400F8177C /* podFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podFile; sourceTree = "<group>"; };
+		BD6FD4C0A872C93311A2E271 /* Pods-XYAllCustomCollectionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYAllCustomCollectionDemo.release.xcconfig"; path = "Target Support Files/Pods-XYAllCustomCollectionDemo/Pods-XYAllCustomCollectionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D092A15DE55E9A844F4D2459 /* Pods-XYAllCustomCollectionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYAllCustomCollectionDemo.debug.xcconfig"; path = "Target Support Files/Pods-XYAllCustomCollectionDemo/Pods-XYAllCustomCollectionDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B8115ED09A6B2A858A91BD3 /* libPods-XYAllCustomCollectionDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +120,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1409FEA124BDABF136E62F01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15CF7FA2334620CD416B19BB /* libPods-XYAllCustomCollectionDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71B07D76F33CD8A15D8264DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D092A15DE55E9A844F4D2459 /* Pods-XYAllCustomCollectionDemo.debug.xcconfig */,
+				BD6FD4C0A872C93311A2E271 /* Pods-XYAllCustomCollectionDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B0129A8424BEF72300A84D6C = {
 			isa = PBXGroup;
 			children = (
+				B090FE8224C966D400F8177C /* podFile */,
+				B0129ADE24BF0A7200A84D6C /* PrefixHeader.pch */,
 				B0129A8F24BEF72300A84D6C /* XYAllCustomCollectionDemo */,
 				B0129AAB24BEF72700A84D6C /* XYAllCustomCollectionDemoTests */,
 				B0129AB624BEF72700A84D6C /* XYAllCustomCollectionDemoUITests */,
 				B0129A8E24BEF72300A84D6C /* Products */,
+				71B07D76F33CD8A15D8264DA /* Pods */,
+				1409FEA124BDABF136E62F01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,9 +171,16 @@
 				B0129A9424BEF72300A84D6C /* SceneDelegate.m */,
 				B0129A9624BEF72300A84D6C /* ViewController.h */,
 				B0129A9724BEF72300A84D6C /* ViewController.m */,
-				B0129A9924BEF72300A84D6C /* Main.storyboard */,
+				B0129ACD24BF016500A84D6C /* CollectionView(集合视图) */,
+				B0129AC824BEFBBD00A84D6C /* MainTableViewCell.h */,
+				B0129AC924BEFBBD00A84D6C /* MainTableViewCell.m */,
+				B0129ACA24BEFBBD00A84D6C /* MainTableViewCell.xib */,
+				B0129ACF24BF021100A84D6C /* CurrencyCell.h */,
+				B0129AD024BF021100A84D6C /* CurrencyCell.m */,
+				B0129AD124BF021100A84D6C /* CurrencyCell.xib */,
 				B0129A9C24BEF72700A84D6C /* Assets.xcassets */,
 				B0129A9E24BEF72700A84D6C /* LaunchScreen.storyboard */,
+				B0129A9924BEF72300A84D6C /* Main.storyboard */,
 				B0129AA124BEF72700A84D6C /* Info.plist */,
 				B0129AA224BEF72700A84D6C /* main.m */,
 			);
@@ -137,6 +205,51 @@
 			path = XYAllCustomCollectionDemoUITests;
 			sourceTree = "<group>";
 		};
+		B0129ACD24BF016500A84D6C /* CollectionView(集合视图) */ = {
+			isa = PBXGroup;
+			children = (
+				B090FE7524C9310600F8177C /* water */,
+				B05A30EF24BFF26100095FA0 /* Card(留有间隙的卡片) */,
+				B0129ACE24BF019900A84D6C /* Normal(普通集合视图) */,
+			);
+			path = "CollectionView(集合视图)";
+			sourceTree = "<group>";
+		};
+		B0129ACE24BF019900A84D6C /* Normal(普通集合视图) */ = {
+			isa = PBXGroup;
+			children = (
+				B0129AD924BF048800A84D6C /* NormalCollectionViewController.h */,
+				B0129ADA24BF048800A84D6C /* NormalCollectionViewController.m */,
+			);
+			path = "Normal(普通集合视图)";
+			sourceTree = "<group>";
+		};
+		B05A30EF24BFF26100095FA0 /* Card(留有间隙的卡片) */ = {
+			isa = PBXGroup;
+			children = (
+				B05A30F024BFF2FD00095FA0 /* CardCollectionViewController.h */,
+				B05A30F124BFF2FD00095FA0 /* CardCollectionViewController.m */,
+				B05A30F324BFF32000095FA0 /* CardFlowLayout.h */,
+				B05A30F424BFF32000095FA0 /* CardFlowLayout.m */,
+			);
+			path = "Card(留有间隙的卡片)";
+			sourceTree = "<group>";
+		};
+		B090FE7524C9310600F8177C /* water */ = {
+			isa = PBXGroup;
+			children = (
+				B090FE7624C9312B00F8177C /* WaterFlowLayout.h */,
+				B090FE7724C9312B00F8177C /* WaterFlowLayout.m */,
+				B090FE7924C9663400F8177C /* WaterViewController.h */,
+				B090FE7A24C9663400F8177C /* WaterViewController.m */,
+				B090FE7E24C966A800F8177C /* NormalCollectionViewCell.h */,
+				B090FE7F24C966A800F8177C /* NormalCollectionViewCell.m */,
+				B090FE7C24C966A800F8177C /* PhotoModel.h */,
+				B090FE7D24C966A800F8177C /* PhotoModel.m */,
+			);
+			path = water;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0129ABC24BEF72700A84D6C /* Build configuration list for PBXNativeTarget "XYAllCustomCollectionDemo" */;
 			buildPhases = (
+				C94775AF629CDC9C8838699D /* [CP] Check Pods Manifest.lock */,
 				B0129A8924BEF72300A84D6C /* Sources */,
 				B0129A8A24BEF72300A84D6C /* Frameworks */,
 				B0129A8B24BEF72300A84D6C /* Resources */,
@@ -240,8 +354,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B090FE8324C966D400F8177C /* podFile in Resources */,
 				B0129AA024BEF72700A84D6C /* LaunchScreen.storyboard in Resources */,
+				B0129AD324BF021100A84D6C /* CurrencyCell.xib in Resources */,
 				B0129A9D24BEF72700A84D6C /* Assets.xcassets in Resources */,
+				B0129ACC24BEFBBD00A84D6C /* MainTableViewCell.xib in Resources */,
 				B0129A9B24BEF72300A84D6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,15 +379,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C94775AF629CDC9C8838699D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYAllCustomCollectionDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0129A8924BEF72300A84D6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05A30F524BFF32000095FA0 /* CardFlowLayout.m in Sources */,
 				B0129A9824BEF72300A84D6C /* ViewController.m in Sources */,
+				B090FE8024C966A800F8177C /* PhotoModel.m in Sources */,
 				B0129A9224BEF72300A84D6C /* AppDelegate.m in Sources */,
+				B0129AD224BF021100A84D6C /* CurrencyCell.m in Sources */,
 				B0129AA324BEF72700A84D6C /* main.m in Sources */,
 				B0129A9524BEF72300A84D6C /* SceneDelegate.m in Sources */,
+				B0129ACB24BEFBBD00A84D6C /* MainTableViewCell.m in Sources */,
+				B05A30F224BFF2FD00095FA0 /* CardCollectionViewController.m in Sources */,
+				B0129ADC24BF048800A84D6C /* NormalCollectionViewController.m in Sources */,
+				B090FE8124C966A800F8177C /* NormalCollectionViewCell.m in Sources */,
+				B090FE7824C9312B00F8177C /* WaterFlowLayout.m in Sources */,
+				B090FE7B24C9663400F8177C /* WaterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,9 +588,11 @@
 		};
 		B0129ABD24BEF72700A84D6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D092A15DE55E9A844F4D2459 /* Pods-XYAllCustomCollectionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/4am_xiao/Desktop/SimpleDemo/XYAllCustomCollectionDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = XYAllCustomCollectionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,9 +606,11 @@
 		};
 		B0129ABE24BEF72700A84D6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6FD4C0A872C93311A2E271 /* Pods-XYAllCustomCollectionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/4am_xiao/Desktop/SimpleDemo/XYAllCustomCollectionDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = XYAllCustomCollectionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
