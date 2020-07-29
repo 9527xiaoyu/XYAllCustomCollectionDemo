@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3B8115ED09A6B2A858A91BD3 /* libPods-XYAllCustomCollectionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CF7FA2334620CD416B19BB /* libPods-XYAllCustomCollectionDemo.a */; };
+		B008DB9F24D11F3300B03A80 /* XYScrollerNestingConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B008DB9E24D11F3300B03A80 /* XYScrollerNestingConfig.m */; };
+		B008DBA324D1259900B03A80 /* XYFont.m in Sources */ = {isa = PBXBuildFile; fileRef = B008DBA224D1259900B03A80 /* XYFont.m */; };
+		B008DBA724D12AF300B03A80 /* XYScrollerNestingListView.m in Sources */ = {isa = PBXBuildFile; fileRef = B008DBA624D12AF300B03A80 /* XYScrollerNestingListView.m */; };
+		B008DBAA24D157BC00B03A80 /* XYScrollerNestingTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = B008DBA924D157BB00B03A80 /* XYScrollerNestingTagView.m */; };
 		B0129A9224BEF72300A84D6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129A9124BEF72300A84D6C /* AppDelegate.m */; };
 		B0129A9524BEF72300A84D6C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129A9424BEF72300A84D6C /* SceneDelegate.m */; };
 		B0129A9824BEF72300A84D6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129A9724BEF72300A84D6C /* ViewController.m */; };
@@ -22,6 +26,7 @@
 		B0129AD224BF021100A84D6C /* CurrencyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129AD024BF021100A84D6C /* CurrencyCell.m */; };
 		B0129AD324BF021100A84D6C /* CurrencyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0129AD124BF021100A84D6C /* CurrencyCell.xib */; };
 		B0129ADC24BF048800A84D6C /* NormalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129ADA24BF048800A84D6C /* NormalCollectionViewController.m */; };
+		B04EA47024D17A46001FB047 /* ScrollNestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04EA46F24D17A46001FB047 /* ScrollNestViewController.m */; };
 		B05A30F224BFF2FD00095FA0 /* CardCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B05A30F124BFF2FD00095FA0 /* CardCollectionViewController.m */; };
 		B05A30F524BFF32000095FA0 /* CardFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B05A30F424BFF32000095FA0 /* CardFlowLayout.m */; };
 		B090FE7824C9312B00F8177C /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B090FE7724C9312B00F8177C /* WaterFlowLayout.m */; };
@@ -50,6 +55,15 @@
 
 /* Begin PBXFileReference section */
 		15CF7FA2334620CD416B19BB /* libPods-XYAllCustomCollectionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYAllCustomCollectionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B008DB9D24D11F3300B03A80 /* XYScrollerNestingConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYScrollerNestingConfig.h; sourceTree = "<group>"; };
+		B008DB9E24D11F3300B03A80 /* XYScrollerNestingConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYScrollerNestingConfig.m; sourceTree = "<group>"; };
+		B008DBA024D123BF00B03A80 /* ScrollerNestingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollerNestingHeader.h; sourceTree = "<group>"; };
+		B008DBA124D1259900B03A80 /* XYFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYFont.h; sourceTree = "<group>"; };
+		B008DBA224D1259900B03A80 /* XYFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYFont.m; sourceTree = "<group>"; };
+		B008DBA524D12AF300B03A80 /* XYScrollerNestingListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYScrollerNestingListView.h; sourceTree = "<group>"; };
+		B008DBA624D12AF300B03A80 /* XYScrollerNestingListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYScrollerNestingListView.m; sourceTree = "<group>"; };
+		B008DBA824D157BB00B03A80 /* XYScrollerNestingTagView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYScrollerNestingTagView.h; sourceTree = "<group>"; };
+		B008DBA924D157BB00B03A80 /* XYScrollerNestingTagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYScrollerNestingTagView.m; sourceTree = "<group>"; };
 		B0129A8D24BEF72300A84D6C /* XYAllCustomCollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYAllCustomCollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0129A9024BEF72300A84D6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0129A9124BEF72300A84D6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +91,8 @@
 		B0129AD924BF048800A84D6C /* NormalCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalCollectionViewController.h; sourceTree = "<group>"; };
 		B0129ADA24BF048800A84D6C /* NormalCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalCollectionViewController.m; sourceTree = "<group>"; };
 		B0129ADE24BF0A7200A84D6C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B04EA46E24D17A46001FB047 /* ScrollNestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollNestViewController.h; sourceTree = "<group>"; };
+		B04EA46F24D17A46001FB047 /* ScrollNestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollNestViewController.m; sourceTree = "<group>"; };
 		B05A30F024BFF2FD00095FA0 /* CardCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardCollectionViewController.h; sourceTree = "<group>"; };
 		B05A30F124BFF2FD00095FA0 /* CardCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardCollectionViewController.m; sourceTree = "<group>"; };
 		B05A30F324BFF32000095FA0 /* CardFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardFlowLayout.h; sourceTree = "<group>"; };
@@ -134,8 +150,27 @@
 				D092A15DE55E9A844F4D2459 /* Pods-XYAllCustomCollectionDemo.debug.xcconfig */,
 				BD6FD4C0A872C93311A2E271 /* Pods-XYAllCustomCollectionDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B008DB9C24D11EE000B03A80 /* scroll嵌套 */ = {
+			isa = PBXGroup;
+			children = (
+				B04EA46E24D17A46001FB047 /* ScrollNestViewController.h */,
+				B04EA46F24D17A46001FB047 /* ScrollNestViewController.m */,
+				B04EA46D24D17A20001FB047 /* scroll */,
+			);
+			path = "scroll嵌套";
+			sourceTree = "<group>";
+		};
+		B008DBA424D1266600B03A80 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				B008DBA024D123BF00B03A80 /* ScrollerNestingHeader.h */,
+				B008DBA124D1259900B03A80 /* XYFont.h */,
+				B008DBA224D1259900B03A80 /* XYFont.m */,
+			);
+			path = config;
 			sourceTree = "<group>";
 		};
 		B0129A8424BEF72300A84D6C = {
@@ -208,6 +243,7 @@
 		B0129ACD24BF016500A84D6C /* CollectionView(集合视图) */ = {
 			isa = PBXGroup;
 			children = (
+				B008DB9C24D11EE000B03A80 /* scroll嵌套 */,
 				B090FE7524C9310600F8177C /* water */,
 				B05A30EF24BFF26100095FA0 /* Card(留有间隙的卡片) */,
 				B0129ACE24BF019900A84D6C /* Normal(普通集合视图) */,
@@ -222,6 +258,20 @@
 				B0129ADA24BF048800A84D6C /* NormalCollectionViewController.m */,
 			);
 			path = "Normal(普通集合视图)";
+			sourceTree = "<group>";
+		};
+		B04EA46D24D17A20001FB047 /* scroll */ = {
+			isa = PBXGroup;
+			children = (
+				B008DBA424D1266600B03A80 /* config */,
+				B008DB9D24D11F3300B03A80 /* XYScrollerNestingConfig.h */,
+				B008DB9E24D11F3300B03A80 /* XYScrollerNestingConfig.m */,
+				B008DBA824D157BB00B03A80 /* XYScrollerNestingTagView.h */,
+				B008DBA924D157BB00B03A80 /* XYScrollerNestingTagView.m */,
+				B008DBA524D12AF300B03A80 /* XYScrollerNestingListView.h */,
+				B008DBA624D12AF300B03A80 /* XYScrollerNestingListView.m */,
+			);
+			path = scroll;
 			sourceTree = "<group>";
 		};
 		B05A30EF24BFF26100095FA0 /* Card(留有间隙的卡片) */ = {
@@ -410,18 +460,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				B05A30F524BFF32000095FA0 /* CardFlowLayout.m in Sources */,
+				B008DBAA24D157BC00B03A80 /* XYScrollerNestingTagView.m in Sources */,
 				B0129A9824BEF72300A84D6C /* ViewController.m in Sources */,
 				B090FE8024C966A800F8177C /* PhotoModel.m in Sources */,
 				B0129A9224BEF72300A84D6C /* AppDelegate.m in Sources */,
+				B04EA47024D17A46001FB047 /* ScrollNestViewController.m in Sources */,
 				B0129AD224BF021100A84D6C /* CurrencyCell.m in Sources */,
 				B0129AA324BEF72700A84D6C /* main.m in Sources */,
 				B0129A9524BEF72300A84D6C /* SceneDelegate.m in Sources */,
 				B0129ACB24BEFBBD00A84D6C /* MainTableViewCell.m in Sources */,
 				B05A30F224BFF2FD00095FA0 /* CardCollectionViewController.m in Sources */,
+				B008DB9F24D11F3300B03A80 /* XYScrollerNestingConfig.m in Sources */,
 				B0129ADC24BF048800A84D6C /* NormalCollectionViewController.m in Sources */,
 				B090FE8124C966A800F8177C /* NormalCollectionViewCell.m in Sources */,
+				B008DBA724D12AF300B03A80 /* XYScrollerNestingListView.m in Sources */,
 				B090FE7824C9312B00F8177C /* WaterFlowLayout.m in Sources */,
 				B090FE7B24C9663400F8177C /* WaterViewController.m in Sources */,
+				B008DBA324D1259900B03A80 /* XYFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
