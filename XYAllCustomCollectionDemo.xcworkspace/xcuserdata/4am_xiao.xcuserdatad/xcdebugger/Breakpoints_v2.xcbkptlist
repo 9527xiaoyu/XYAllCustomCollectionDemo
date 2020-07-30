@@ -3,4 +3,22 @@
    uuid = "950F623F-67D7-4545-9EA6-FDC0EF32F78B"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1A87DC4-2A33-4CC9-AB93-F03CD5EBE62C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XYAllCustomCollectionDemo/CollectionView(&#x96c6;&#x5408;&#x89c6;&#x56fe;)/scroll&#x5d4c;&#x5957;/scroll/XYScrollerNestingListView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "-selectScrollView2Center"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

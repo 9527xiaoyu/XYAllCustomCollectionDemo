@@ -12,6 +12,7 @@
 #import "NormalCollectionViewController.h"
 #import "CardCollectionViewController.h"
 #import "WaterViewController.h"
+#import "ScrollNestViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *mainTableView;
@@ -55,6 +56,11 @@
             [self.navigationController pushViewController:cardVC animated:YES];
         }
             break;
+        case 2:{
+            ScrollNestViewController *scrollVC = [[ScrollNestViewController alloc]init];
+            [self.navigationController pushViewController:scrollVC animated:YES];
+        }
+            break;
         case 10:{
             WaterViewController *waterVC = [[WaterViewController alloc]init];
             [self.navigationController pushViewController:waterVC animated:YES];
@@ -73,6 +79,9 @@
             break;
         case 1:
             result = @"整页控制器";
+            break;
+        case 2:
+            result = @"嵌套Scroll控制器";
             break;
         case 10:
             result = @"瀑布流控制器";

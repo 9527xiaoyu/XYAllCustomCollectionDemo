@@ -34,6 +34,8 @@
 		B090FE8024C966A800F8177C /* PhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B090FE7D24C966A800F8177C /* PhotoModel.m */; };
 		B090FE8124C966A800F8177C /* NormalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B090FE7F24C966A800F8177C /* NormalCollectionViewCell.m */; };
 		B090FE8324C966D400F8177C /* podFile in Resources */ = {isa = PBXBuildFile; fileRef = B090FE8224C966D400F8177C /* podFile */; };
+		B0E3730E24D28FBB003ECC07 /* EvaTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E3730D24D28FBB003ECC07 /* EvaTableView.m */; };
+		B0E3731124D28FDB003ECC07 /* EvaCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E3731024D28FDB003ECC07 /* EvaCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +108,10 @@
 		B090FE7E24C966A800F8177C /* NormalCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalCollectionViewCell.h; sourceTree = "<group>"; };
 		B090FE7F24C966A800F8177C /* NormalCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalCollectionViewCell.m; sourceTree = "<group>"; };
 		B090FE8224C966D400F8177C /* podFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podFile; sourceTree = "<group>"; };
+		B0E3730C24D28FBB003ECC07 /* EvaTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EvaTableView.h; sourceTree = "<group>"; };
+		B0E3730D24D28FBB003ECC07 /* EvaTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EvaTableView.m; sourceTree = "<group>"; };
+		B0E3730F24D28FDB003ECC07 /* EvaCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EvaCollectionView.h; sourceTree = "<group>"; };
+		B0E3731024D28FDB003ECC07 /* EvaCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EvaCollectionView.m; sourceTree = "<group>"; };
 		BD6FD4C0A872C93311A2E271 /* Pods-XYAllCustomCollectionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYAllCustomCollectionDemo.release.xcconfig"; path = "Target Support Files/Pods-XYAllCustomCollectionDemo/Pods-XYAllCustomCollectionDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D092A15DE55E9A844F4D2459 /* Pods-XYAllCustomCollectionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYAllCustomCollectionDemo.debug.xcconfig"; path = "Target Support Files/Pods-XYAllCustomCollectionDemo/Pods-XYAllCustomCollectionDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +164,10 @@
 			children = (
 				B04EA46E24D17A46001FB047 /* ScrollNestViewController.h */,
 				B04EA46F24D17A46001FB047 /* ScrollNestViewController.m */,
+				B0E3730C24D28FBB003ECC07 /* EvaTableView.h */,
+				B0E3730D24D28FBB003ECC07 /* EvaTableView.m */,
+				B0E3730F24D28FDB003ECC07 /* EvaCollectionView.h */,
+				B0E3731024D28FDB003ECC07 /* EvaCollectionView.m */,
 				B04EA46D24D17A20001FB047 /* scroll */,
 			);
 			path = "scroll嵌套";
@@ -464,9 +474,11 @@
 				B0129A9824BEF72300A84D6C /* ViewController.m in Sources */,
 				B090FE8024C966A800F8177C /* PhotoModel.m in Sources */,
 				B0129A9224BEF72300A84D6C /* AppDelegate.m in Sources */,
+				B0E3730E24D28FBB003ECC07 /* EvaTableView.m in Sources */,
 				B04EA47024D17A46001FB047 /* ScrollNestViewController.m in Sources */,
 				B0129AD224BF021100A84D6C /* CurrencyCell.m in Sources */,
 				B0129AA324BEF72700A84D6C /* main.m in Sources */,
+				B0E3731124D28FDB003ECC07 /* EvaCollectionView.m in Sources */,
 				B0129A9524BEF72300A84D6C /* SceneDelegate.m in Sources */,
 				B0129ACB24BEFBBD00A84D6C /* MainTableViewCell.m in Sources */,
 				B05A30F224BFF2FD00095FA0 /* CardCollectionViewController.m in Sources */,

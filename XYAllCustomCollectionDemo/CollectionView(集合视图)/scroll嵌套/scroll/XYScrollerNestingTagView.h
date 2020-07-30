@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface XYScrollerNestingTagView : UIView
 @property (nonatomic, strong) UILabel *titleLabel;
+@property (nonatomic, assign) CGFloat titleLabelWidth;
 @end
 
 NS_ASSUME_NONNULL_END
